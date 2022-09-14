@@ -1,0 +1,16 @@
+command: toggledrop
+
+items:
+- DIAMOND_PICKAXE
+- DIAMOND
+- DIAMOND_BLOCK
+
+# true: can't drop registered items, false: drop registered items
+# default status on reload / player first time join
+default_status: true
+
+cooldown_message: 10 #seconds
+# Alert Message
+statusString_disabled: '&4Disabled'
+statusString_enabled: '&aActivated'
+message: '&6[&bNoDrops&6] &8- &7Your drop item prevention is %status%&7, you can toggle by command &c%command%'

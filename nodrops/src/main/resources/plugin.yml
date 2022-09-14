@@ -1,0 +1,7 @@
+main: nodrops.NoDrops
+name: NoDrops
+version: 1.1.0
+
+permissions:
+  nodrops.reload:
+     default: op
